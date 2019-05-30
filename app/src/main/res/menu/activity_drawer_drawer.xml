@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_All"
+            android:title="All Location" />
+
+        <item android:title="Select Location">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_arch"
+                        android:icon="@drawable/archi_logo"
+                        android:title="Archaeological Site" />
+                    <item
+                        android:id="@+id/nav_hotel"
+                        android:icon="@drawable/hotels_logo"
+                        android:title="Hotels" />
+                    <item
+                        android:id="@+id/nav_national_park"
+                        android:icon="@drawable/national_park_logo"
+                        android:title="National Park" />
+                </group>
+
+            </menu>
+        </item>
+
+
+    </group>
+
+
+
+</menu>
